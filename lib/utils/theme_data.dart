@@ -36,6 +36,7 @@ var darkThemeData = ThemeData(
     ),
     subtitle1: TextStyle(
       color: Colors.blueGrey[300],
+      fontSize: 15,
     ),
     headline1: TextStyle(
       color: Colors.white70,

@@ -33,7 +33,7 @@ class FeaturedHeading extends StatelessWidget {
                 ),
                 SizedBox(height: 5),
                 Text(
-                  'Algumas peças que trabalhamos',
+                  'Algumas peças que trabalhamos.',
                   textAlign: TextAlign.end,
                   style: Theme.of(context).primaryTextTheme.subtitle1,
                 ),
@@ -54,7 +54,7 @@ class FeaturedHeading extends StatelessWidget {
                 ),
                 Expanded(
                   child: Text(
-                    'Algumas peças que trabalhamos',
+                    'Algumas peças que trabalhamos.',
                     textAlign: TextAlign.end,
                     style: Theme.of(context).primaryTextTheme.subtitle1,
                   ),

@@ -23,8 +23,9 @@ class FeaturedHeading_pago extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Row(),
+                //Row(),
                 Text(
-                  'Formas de pagamento',
+                  'Formas de Pagamento',
                   style: TextStyle(
                     fontSize: 24,
                     fontFamily: 'Montserrat',
@@ -33,8 +34,8 @@ class FeaturedHeading_pago extends StatelessWidget {
                 ),
                 SizedBox(height: 5),
                 Text(
-                  'Escolha a melhor forma de pagamento pra você',
-                  textAlign: TextAlign.end,
+                  'Escolha a melhor forma de pagamento pra você.',
+                  textAlign: TextAlign.start,
                   style: Theme.of(context).primaryTextTheme.subtitle1,
                 ),
                 SizedBox(height: 10),
@@ -45,7 +46,7 @@ class FeaturedHeading_pago extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Text(
-                  'Formas de pagamento',
+                  'Formas de Pagamento',
                   style: TextStyle(
                     fontSize: 40,
                     fontFamily: 'Montserrat',
@@ -54,7 +55,7 @@ class FeaturedHeading_pago extends StatelessWidget {
                 ),
                 Expanded(
                   child: Text(
-                    'Escolha a melhor forma de pagamento pra você',
+                    'Escolha a melhor forma de pagamento pra você.',
                     textAlign: TextAlign.end,
                     style: Theme.of(context).primaryTextTheme.subtitle1,
                   ),
