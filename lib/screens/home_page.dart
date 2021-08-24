@@ -66,17 +66,28 @@ class _HomePageState extends State<HomePage> {
                   },
                 ),
               ],
-              title: Text(
-                "D' LIVIS",
+              title: Container(
+                height: screenSize.height / 16,
+                child: ClipRRect(
+                  child: Image.asset(
+                    "assets/images/logo.png",
+                    fit: BoxFit.cover,
+                    color: Colors.white60,
+                  ),
+                ),
+              )
+
+              /*Text(
+                "D' livis",
                 style: TextStyle(
                   color: Colors.white60,
-                  fontSize: 20,
-                  fontFamily: 'Montserrat',
+                  fontSize: 40,
+                  fontFamily: 'Ello',
                   fontWeight: FontWeight.w400,
                   letterSpacing: 3,
                 ),
-              ),
-            )
+              ),*/
+              )
           : PreferredSize(
               preferredSize: Size(screenSize.width, 1000),
               child: TopBarContents(_opacity),

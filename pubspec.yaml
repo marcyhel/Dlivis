@@ -36,5 +36,9 @@ flutter:
       fonts:
         - asset: fonts/Electrolize-Regular.ttf
 
+    - family: Ello
+      fonts:
+        - asset: fonts/hello-honey.otf
+
   assets:
     - assets/images/
